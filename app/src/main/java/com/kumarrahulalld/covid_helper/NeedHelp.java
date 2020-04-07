@@ -106,8 +106,8 @@ us=mauth.getCurrentUser();
                 f3.child("Latitude").setValue(lat+"");
                 f3.child("Longitude").setValue(lon+"");
                 f3.child("Status").setValue("0");
-                BackgroundMail.newBuilder(this).withUsername("kumarrahul.allduniv@gmail.com")
-                        .withPassword("Rm@1749001").withMailto(vv.get(i))
+                BackgroundMail.newBuilder(this).withUsername("email Address")
+                        .withPassword("Password").withMailto(vv.get(i))
                         .withType(BackgroundMail.TYPE_PLAIN)
                         .withSubject("IMPORTANT COVID-HELPER NOTIFICATION :- Someone Needs Your Help Near You.")
                 .withBody("Hi User, Greetings From COVID-19 Hepler. \n"+nm.getText().toString()+"  Needs Your Help In Your Area , Have A Look On Problem.\n Login Into COVID-19 Hepler Application And Open Willing To Help Section.\n You Will Find All The Details There.\n Thank You ,\n COVID-19 Helper Team.")
